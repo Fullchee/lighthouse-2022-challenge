@@ -1,3 +1,5 @@
+# https://data-challenge.lighthouselabs.ca/challenge/7
+
 import pandas as pd
 
 df = pd.read_csv('fc_barcelona.csv')
