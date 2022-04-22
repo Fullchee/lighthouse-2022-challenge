@@ -14,3 +14,9 @@ diff = min_max['max'] - min_max['min']
 
 diff.idxmax()
 
+
+#### Lighthouse Labs Solution: iloc
+
+grouped = price_min_max
+(grouped.iloc[:,1] - grouped.iloc[:,0]).sort_values(ascending=False).head()
+
