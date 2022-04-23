@@ -4,6 +4,8 @@ import pandas as pd
 
 df = pd.read_csv('fc_barcelona.csv')
 df.head()
+
+# columns
 points = df.Pts
 games_played = df.MP
 wins = df.W
