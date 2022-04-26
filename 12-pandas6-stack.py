@@ -6,6 +6,7 @@ summer_and_winter = df[(df['season'] == 'winter') | (df['season'] == 'summer')]
 # a DF for each (location, season)
 city_season = summer_and_winter.groupby(['Location', 'season'])
 
+# city_season.apply(display)  # prints it
 
 # Location     season
 # Adelaide     summer    22.184554
