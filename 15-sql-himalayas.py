@@ -1,5 +1,8 @@
 import sqlite3
+
 import pandas as pd
+from IPython.display import display
+
 conn = sqlite3.connect("himalayas.db")
 
 peak_height_query = """
