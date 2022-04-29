@@ -29,3 +29,5 @@ plt.hist(
     distances, bins=100
 )  # Play around with the bin sizes when plotting your histogram
 plt.show()
+
+# alt: df_van.groupby('ORIGIN_CITY_NAME')[['PASSENGERS']].sum().sort_values("PASSENGERS",ascending=False).head()
